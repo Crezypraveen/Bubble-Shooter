@@ -22,6 +22,7 @@ public int time;
         
     }
     public void AnimateBar(){
+        Debug.Log("Summa");
         LeanTween.scaleX(bar, 2.050f, time).setOnComplete(LoadNextScene);
     }
     void LoadNextScene()
